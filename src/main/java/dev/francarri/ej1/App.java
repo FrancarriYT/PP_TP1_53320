@@ -10,10 +10,11 @@ public class App {
     public static List<EventoUniversitario> eventos = new ArrayList<>();
 
     public static void main(String[] args) {
-        EventoUniversitario evento1 = new EventoUniversitario(((Integer) (eventos.size())).toString(),
+        EventoUniversitario evento1 = new EventoUniversitario("1",
                 "Charla de Sistemas", 1000.00, true);
         EventoUniversitario evento2 = new EventoUniversitario(evento1);
-
+        eventos.add(evento1);
+        eventos.add(evento2);
         for (EventoUniversitario evento : eventos){
             evento.mostrarDatos();
         }

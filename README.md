@@ -71,8 +71,6 @@ Proyecto Maven estándar con paquetes por ejercicio:
 ---
 
 ## Cómo compilar y ejecutar
-- Compilar con Maven (opcional si se usa IntelliJ):
-  - `mvn -q -DskipTests package`
 
 - Ejecutar desde IntelliJ:
   - Abrir la clase `App.java` del ejercicio que corresponda (por ejemplo, `dev.francarri.ej1.App`) y presionar "Run".  
@@ -86,7 +84,7 @@ Proyecto Maven estándar con paquetes por ejercicio:
 ## Pruebas (Testing)
 - Algunas pruebas de ejemplo se encuentran en `src/test/java/dev/francarri/ej2`.
 - Ejecutar pruebas:
-  - Desde IntelliJ: panel "Maven" → `test`, o clic derecho sobre la carpeta `test` → Run tests.  
+  - Desde IntelliJ: panel "Maven" → `test`
 
 ---
 

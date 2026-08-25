@@ -17,6 +17,9 @@ public class App {
 
         EventoUniversitario evento1 = new EventoUniversitario("10020", "Reunion Importante", 2000.0, false);
         EventoUniversitario evento2 = new EventoUniversitario(evento1);
+        eventos.add(evento1);
+        eventos.add(evento2);
+
         evento1.asignarSala(salas.getFirst());
         evento1.crearCharla(1, "Sistemas Operativos para ignorantes", 80, "Terry Davis");
         evento2.crearTaller(2,"Desarrollo de Apps", 50, true);

@@ -21,6 +21,8 @@ public class App {
         estudiantes.add(santi);
         estudiantes.add(juani);
 
+        eventos.add(evento1);
+        eventos.add(evento2);
 
 
         evento1.crearActividad(1,"Charla de Ray Tracing",60);
